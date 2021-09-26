@@ -17,7 +17,7 @@ const telegramToken = process.env.TELEGRAM_BOT_TOKEN
 const ethplorerApiKey = process.env.ETHPLORER_API_KEY
 const infuraId = process.env.INFURA_ID
 const etherScanApiKey = process.env.ETHERSCAN_API_KEY
-const grumpyTokenContract = '0x93b2fff814fcaeffb01406e80b4ecd89ca6a021b'
+const grumpyTokenContract = '0xAEcc217a749c2405b5ebC9857a16d58Bdc1c367F'
 
 let web3 = new Web3(new Web3.providers.HttpProvider(`https://mainnet.infura.io/${infuraId}`))
 
